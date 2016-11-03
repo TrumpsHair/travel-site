@@ -8,7 +8,7 @@
 
 
 &--medium {
-	max-width: 976px
+	max-width: 976px;
 }
 
 &--no-padding-until-medium {
@@ -19,6 +19,7 @@
 		padding-left: 18px;
 		padding-right: 18px;
 	}
+}
 
 	&--no-padding-until-large {
 	padding-left: 0;
@@ -29,8 +30,7 @@
 		padding-right: 18px;
 	}
   }
-}
-
+  
 .wrapper {
 	padding-left: 0;
 	padding-right: 0;

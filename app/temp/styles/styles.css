@@ -576,7 +576,7 @@ display: inline-block;
 }
 
 .wrapper--medium {
-  max-width: 976px
+  max-width: 976px;
 }
 
 .wrapper--no-padding-until-medium {
@@ -592,14 +592,14 @@ display: inline-block;
   }
 }
 
-.wrapper--no-padding-until-medium--no-padding-until-large {
+.wrapper--no-padding-until-large {
   padding-left: 0;
   padding-right: 0;
 }
 
 @media (min-width: 1010px) {
 
-  .wrapper--no-padding-until-medium--no-padding-until-large {
+  .wrapper--no-padding-until-large {
     padding-left: 18px;
     padding-right: 18px;
   }
